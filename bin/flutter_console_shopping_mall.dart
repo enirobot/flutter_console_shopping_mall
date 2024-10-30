@@ -95,7 +95,7 @@ class ShoppingMall {
       total += item.price * item.quantity;
     }
     print('총액: $total원');
-    print("=====================");
+    print("====================");
   }
 
   void clearCart() {
@@ -114,7 +114,7 @@ class ShoppingMall {
       return;
     }
 
-    print('\n===== 결제 진행 =====');
+    print('\n##### 결제 진행 #####');
     showCart();
     print('\n결제를 진행하시겠습니까? (y/n)');
     String? input = stdin.readLineSync();
@@ -285,8 +285,8 @@ void main() {
 
   while (true) {
     print('\n=== 쇼핑몰 프로그램 ===');
-    print('[1] 구매자 모드');
-    print('[2] 판매자 모드');
+    print('[1] 구매자 메뉴');
+    print('[2] 판매자 메뉴');
     print('[x] 프로그램 종료');
     print("=======================");
 

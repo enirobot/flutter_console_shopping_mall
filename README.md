@@ -1,3 +1,6 @@
+### 콘솔 쇼핑몰
+Dart 언어로 작성된 콘솔 쇼핑몰 프로그램입니다.
+
 ### 프로젝트 폴더로 이동
 ```bash
 cd flutter_console_shopping_mall

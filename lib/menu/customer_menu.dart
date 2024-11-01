@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:flutter_console_shopping_mall/menu/menu.dart';
 import 'package:flutter_console_shopping_mall/services/shopping_mall.dart';
 import 'package:flutter_console_shopping_mall/utils/input_util.dart';
+
 /// `customerMenu` 함수는 구매자 메뉴를 관리합니다.
 /// 
 /// 매개변수:

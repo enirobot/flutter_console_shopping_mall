@@ -7,6 +7,7 @@ import '../constants/constants.dart';
 /// - `getInput(String prompt)`: 사용자에게 프롬프트를 출력하고 문자열 입력을 받아 반환합니다.
 /// - `getIntInput(String prompt)`: 사용자에게 정수를 입력받고, 잘못된 입력 시 에러 메시지를 출력합니다.
 /// - `confirmExit()`: 종료 여부를 묻는 메시지를 표시하고, 종료 확정을 위한 특정 입력을 확인합니다.
+
 class InputUtil {
   
   /// `getInput` 메서드는 주어진 프롬프트 메시지를 출력하고, 사용자로부터 문자열 입력을 받습니다.

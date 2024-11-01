@@ -3,15 +3,29 @@ import 'dart:io';
 import 'package:flutter_console_shopping_mall/models/cart_item.dart';
 import 'package:flutter_console_shopping_mall/models/product.dart';
 
+/// `ShoppingMall` 클래스는 제품 목록과 장바구니를 관리하는 쇼핑몰을 나타냅니다.
+/// 
+/// 속성:
+/// - `products`: 쇼핑몰에서 판매되는 제품 리스트.
+/// - `cart`: 고객의 장바구니에 담긴 상품 리스트.
+/// 
+/// 생성자:
+/// - `ShoppingMall(List<Product> products)`: 주어진 제품 리스트로 쇼핑몰을 초기화합니다.
+///
+/// 메서드:
+/// - `void showProductsForCustomer()`: 고객에게 재고가 있는 제품 목록을 표시합니다.
+/// - `void addToCart()`: 사용자가 선택한 제품을 장바구니에 추가합니다.
+/// - `void showCart()`: 현재 장바구니의 상품 목록과 총액을 출력합니다.
+/// - `void clearCart()`: 장바구니의 모든 항목을 제거합니다.
+/// - `void checkout()`: 장바구니에 담긴 상품의 결제를 진행합니다.
+/// - `void showProductsForSeller()`: 판매자를 위한 제품의 재고 목록을 출력합니다.
+/// - `void addProduct()`: 새로운 제품을 쇼핑몰의 제품 목록에 추가합니다.
+/// - `void updateStock()`: 기존 제품의 재고 수량을 수정합니다.
 
 class ShoppingMall {
   List<Product> products;
   List<CartItem> cart = [];
 
-  /// `ShoppingMall` 생성자는 주어진 상품 목록으로 쇼핑몰을 초기화합니다.
-  ///
-  /// 매개변수:
-  /// - `products`: 쇼핑몰에서 판매되는 상품 리스트.
   ShoppingMall(this.products);
 
   /// `showProductsForCustomer` 메서드는 고객을 위한 상품 목록을 표시합니다.

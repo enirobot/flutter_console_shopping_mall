@@ -1,5 +1,11 @@
 import 'package:flutter_console_shopping_mall/constants/constants.dart';
 
+/// `Menu` 클래스는 프로그램의 다양한 메뉴를 출력하는 기능을 제공합니다.
+/// 
+/// 이 클래스는 구매자 및 판매자 메뉴를 포함하여 사용자가
+/// 쇼핑몰 프로그램의 다양한 기능에 접근할 수 있도록 돕습니다.
+/// 각 메서드는 해당 메뉴의 내용을 콘솔에 출력합니다.
+
 class Menu {
   
   /// `showMainMenu` 메서드는 프로그램의 메인 메뉴를 출력합니다.

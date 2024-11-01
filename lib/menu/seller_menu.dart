@@ -23,10 +23,8 @@ void sellerMenu(ShoppingMall mall) {
   bool isRunning = true;
 
   while (isRunning) {
-    // 판매자 메뉴를 출력
     Menu.showSellerMenu();
     
-    // 사용자에게 메뉴 선택 입력을 받음
     String? input = InputUtil.getInput('메뉴를 선택하세요:');
 
     switch (input) {

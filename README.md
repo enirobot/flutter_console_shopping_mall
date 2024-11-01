@@ -20,7 +20,7 @@
 ```
 shopping_mall/
 ├── bin/
-│   └── flutter_console_shopping_mall.dart           # 프로그램 진입점
+│   └── flutter_console_shopping_mall.dart # 프로그램 진입점
 └── lib/
     ├── constants/
     │   └── constants.dart  # 상수 정의
@@ -51,7 +51,7 @@ cd {특정 폴더}
 git clone https://github.com/enirobot/flutter_console_shopping_mall.git
 
 # 프로젝트 디렉토리로 이동
-cd shopping_mall
+cd flutter_console_shopping_mall
 
 # 의존성 설치
 dart pub get
